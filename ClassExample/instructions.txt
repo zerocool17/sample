@@ -1,0 +1,61 @@
+Run the SQL script to create the categories table before beginning
+
+
+config.php (needs to be created)
+// create a database connection
+
+
+
+form.php
+// Create and include a configuration file with the database connection
+
+// Get an associative array of categories from the database
+// Dynamically print the categories as checkbox options in the form
+
+// Get type of form either add or edit from the URL (ex. form.php?action=add)
+
+// If form is submitted	cisothe URL is add
+		// Get variables from the form submitted using $_POST
+		// Insert the book into the database
+		// Set the categories of the book in the database
+	
+	// Redirect to book listing page
+
+
+
+index.php
+// Create and include a configuration file with the database connection
+
+// Get a list of books from the database
+
+// Get a list of categories for each book from the database
+
+// Create an associative array, storing the categories of each book indexed by isbn
+
+// Loop over books printing the title, price and list the categories
+
+
+3rd Array in index…create an associative array on isbn
+[123]=array(
+	‘title’=> ‘IT’
+	‘categories’=> array( ‘tech, ‘english’)
+)
+
+
+
+
+		<!-- create multi-dimensional / associative array of courses -->
+		<?php
+			$courses = array(
+				'inf' => array(
+					'200' => 'Introduction to Programming',
+					'300' => 'Networking 101',
+					'401' => 'Database Administration'
+				),
+				'csc' => array(
+					'301' => 'Web Programming',
+					'381' => 'Introduction to Ruby',
+					'481' => 'Advanced Ruby'
+				)
+			);
+		?>
