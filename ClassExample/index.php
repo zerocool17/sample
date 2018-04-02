@@ -34,7 +34,7 @@ foreach ($books_categories as $bookCategory) {
 <head>
 	<meta charset="utf-8">
 
-  	<title>Books</title>
+  	<title>Books And Stuff</title>
 	<meta name="description" content="The HTML5 Herald">
 	<meta name="author" content="SitePoint">
 
